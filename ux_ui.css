@@ -1,0 +1,79 @@
+#titre{
+    position: absolute;
+    left:37%;
+    
+}
+#loupe{
+    z-index: 2;
+    position: absolute;
+    left: 1365px;
+    top:37%;
+}
+#rectangle1{
+    z-index: 2;
+    position: absolute;
+    transform: translateX(-50px);
+    top: 280px;
+    left: 340px;
+}
+#rectangle2{
+    z-index: 2;
+    position: absolute;
+    transform: translateX(-50px);
+    top: 350px;
+    left: 890px;
+}
+#rectangle3{
+    z-index: 2;
+    position: absolute;
+    transform: translateX(-50px);
+    top: 500px;
+    left:-135%;
+}
+#rectangle4{
+    z-index: 2;
+    transform: translateX(-50px);
+    bottom: 3%;
+    left:960px;
+    margin-top: 100px;
+}
+#promo{
+    z-index: 1;
+    position: absolute;
+    top: 14px;
+    left:60px;
+    
+}
+#textecarte{
+    z-index: 2;
+    top: 285px;
+    left: 890px;
+}
+#bouteille1{
+    z-index: 3;
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    opacity: 0;
+}
+#bouteille2{
+    opacity: 0;
+    z-index: 3;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+}
+#bouteille1:hover{
+    opacity: 1;
+    z-index: 3;
+    position: absolute;
+    top: 270px;
+    left: 100px;
+}
+#bouteille2:hover{
+    opacity: 1;
+    z-index: 3;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+}
