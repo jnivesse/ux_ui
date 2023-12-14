@@ -1,0 +1,56 @@
+.background {
+    background-image: url('images/iStock-1137578281.jpg'); /* Remplacez par le chemin de votre image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 130vh;
+            margin: 0; /* Supprime la marge par défaut du body */
+            color: #ffffff;
+}
+
+.bg form {
+    font-family: 'KaiseiDecol-Regular', sans-serif;
+}
+h2{
+    text-align: center;
+}
+
+
+.formulaire{
+    display: grid;
+ background-color: white;
+ width: 800px;
+}
+
+.E-mail {
+    width: 230px;
+    display: block;
+}
+
+h3 {
+    position: relative;
+    text-align: center;
+        font-family: 'KaiseiDecol-Regular', sans-serif;
+        color: black;
+    
+  }
+  
+  h3::before,
+  h3::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;  
+    height: 1px; 
+    background-color: black; 
+  }
+  
+  h3::before {
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  h3::after {
+    right: 0;
+    transform: translateY(-50%);
+  }
