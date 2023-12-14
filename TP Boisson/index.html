@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Manrope:wght@200&family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="text-center">
+      <!-- barre de navigation -->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="hibiki-japanese-harmony.jpg" alt="Logo" height="50" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Accueil</a
+                >
+              </li>
+
+              <!-- nos whisky -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Nos whisky
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Hibiki</a></li>
+                  <li><a class="dropdown-item" href="#">Hatozaki</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Yamazaki</a>
+                  </li>
+                </ul>
+              </li>
+              <!-- whisky du monde -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Whisky du monde
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Américain</a></li>
+                  <li><a class="dropdown-item" href="#">Européen</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Reste du monde</a>
+                  </li>
+                </ul>
+              </li>
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact</a
+              >
+            </ul>
+            <h2 class="titre">Japanisky</h2>
+            <!-- barre de recherche -->
+            <form class="d-flex" role="search">
+              <!-- mettre la loupe dans l'encadrer !!!!!!!!!!!!!!-->
+              <div class="m-2">
+                <img
+                  src="magnifying-glass-solid.png"
+                  id="loupe"
+                  alt="Logo"
+                  height="18"
+                />
+              </div>
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Faites vous plaisir."
+                aria-label="Search"
+              />
+              <button type="button" class="btn btn-secondary">Recherche</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <img
+        src="iStock-1137578281.jpg"
+        alt="Logo"
+        height="280"
+        width="2100"
+        class="img-fluid opacity-25"
+      />
+      <div>
+        <!--DEBUT DU PREMIER CAROUSEL-->
+        <div id="carousel1ExampleControls" class="carousel slide">
+          <button
+            type="buttonBuy"
+            class="btn btn-primary"
+            id="buttonBuy"
+            data-mdb-ripple-init
+          >
+            Buy Now
+          </button>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="hibikiZ.jpg" alt="First slide" />
+            </div>
+            <div class="carousel-item">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="hibiki-japanese-harmony.jpg"
+                      class="img-fluid rounded-start w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Hibiki Suntory Whisky</h5>
+                      <p class="card-text m-3">
+                        Créé par Shinji Fukuyo maître assembleur de la Maison
+                        Suntory, Hibiki Japanese Harmony est la toute dernière
+                        expression d'un des whiskies japonais les plus
+                        récompensés au monde.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted"></small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel1ExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel1ExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!--DEUXIEME CAROU-->
+        <div id="carousel2ExampleControls" class="carousel slide">
+          <button
+            type="buttonBuy"
+            class="btn btn-primary"
+            id="buttonBuy"
+            data-mdb-ripple-init
+          >
+            Buy Now
+          </button>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="Yamazaki1.jpg"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="yamazaki2.jpg"
+                      class="img-fluid rounded-start w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Yamazaki 18 ans</h5>
+                      <p class="card-text m-3">
+                        Le single malt Yamazaki 18 ans est à la fois intense et
+                        délicat et son étonnante palette aromatique fruitée est
+                        le résultat du travail méticuleux accompli par les
+                        équipes de master blenders.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted"></small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel2ExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel2ExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!--TROISIEME CARROU-->
+        <div id="carousel3ExampleControls" class="carousel slide">
+          <button
+            type="button"
+            class="btn btn-success"
+            id="buttonBuy"
+            data-mdb-ripple-init
+          >
+            Buy Now
+          </button>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="hatozaki.jpg" alt="First slide" />
+            </div>
+            <div class="carousel-item">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="hatozaki2.jpg"
+                      class="img-fluid rounded-start w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Hatozaki Blended</h5>
+                      <p class="card-text m-3">
+                        Produit par la distillerie Kaikyo fondée par la famille
+                        Yonezawa brasseurs de saké depuis 1856, Hatozaki Blended
+                        est un blend contenant 40% de single malt et 60% de
+                        whisky de grain.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted"></small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel3ExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel3ExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="bg-light text-center " id="foot">
+      <h3>Japanysky</h3>
+      <div class="container fluid">
+        <a href="https://www.example.com"><img src="twitter_128_px.png" alt="logo twitter" class="img-fluid" style="width: 30px; height: 30px;"></a>
+        <a href="https://www.example.com"><img src="facebook_128_px.png" alt="logo facebook" class="img-fluid" style="width: 30px; height: 30px;"></a>
+        <a href="https://www.example.com"><img src="insta_rond2.png" alt="logo insta" class="img-fluid" style="width: 30px; height: 30px;"></a>
+      </div>
+      <!-- Copyright avec votre nom -->
+      <p class="mb-0">&copy; 2023 NIVESSE Jérome. Tous droits réservés.</p>
+  </div>
+  </footer>
+    <!--PANIER-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
