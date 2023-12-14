@@ -1,0 +1,92 @@
+body{
+    font-family: 'Kaisei Decol', serif;
+}
+
+.carousel {
+    position: absolute;
+    top: 200px; 
+    left: 200px; 
+    z-index: 1; 
+  }
+  
+#carousel1ExampleControls{
+    left: 100px;
+    width: 25%;
+    margin: auto;
+}
+#carousel2ExampleControls{
+    width: 25%;
+    margin: auto;
+    top: 200px; 
+    left: 1300px;
+    
+}
+#carousel3ExampleControls{
+    top: 200px;
+    left: 710px;
+    width: 25%;
+    margin: auto;
+}
+
+.carousel-item img{
+    width: 50%;
+    height: auto;
+}
+
+.card{
+    background-color: rgb(187, 220, 240)
+}
+.titre {
+    margin-right: 500px !important;
+}
+
+.buttonBuy{
+    position: relative;
+    z-index: 2;
+    margin-top: 500px !important;
+}
+#buttonBuy{
+    
+    border-color: rgb(74, 136, 199);
+    background-color: rgb(74, 136, 199);
+}
+
+#loupe{
+    z-index: 2;
+    position: absolute;
+    left: 1750px;
+    top:37%;
+}
+
+h3 {
+    position: relative;
+    text-align: center;
+  }
+  
+  h3::before,
+  h3::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%; /* Longueur des lignes */
+    height: 1px; /* Hauteur des lignes */
+    background-color: black; /* Couleur des lignes */
+  }
+  
+  h3::before {
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  h3::after {
+    right: 0;
+    transform: translateY(-50%);
+  }
+#footer {
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    border: none;
+}
